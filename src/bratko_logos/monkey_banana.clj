@@ -23,13 +23,12 @@
 (defn canget-o [state out]
   (macro/symbol-macrolet [_ (mk/lvar)]
    (mk/cond-e
-    ((mk/== [_ _ _ :has] state) (mk/== out true))
+    ((mk/== [_ _ _ :has] state) (mk/== out [true state]))
     ((mk/exist [action next]
-               (move state action next)
+               (move-o state action next)
                (canget-o next out))))))
 
 (comment
-
   ;; (true)
   (mk/run 1 [q]
           (canget-o [:atdoor :onfloor :atwindow :hasnot] q))

@@ -1,7 +1,6 @@
-(defproject bratko-logos "1.0.0-SNAPSHOT"
-  :description "FIXME: write"
-  :dependencies [[org.clojure/clojure "1.3.0-alpha5"]
-                 [org.clojure.contrib/macro-utils "1.3.0-alpha4"]
-                 [org.clojure.contrib/monads "1.3.0-alpha4"]
-                 [logos "0.5.1-SNAPSHOT"]]
+(defproject bratko-logos "0.1.0-SNAPSHOT"
+  :description "Bratko's Prolog Programming for AI in miniKanren"
+  :dependencies [[org.clojure/clojure "1.2.0"]
+                 [org.clojure/clojure-contrib "1.2.0"]
+                 [logos "0.5.2-SNAPSHOT"]]
   :dev-dependencies [[swank-clojure "1.3.0-SNAPSHOT"]])

@@ -1,0 +1,11 @@
+h1. Bratko Logos
+
+As I develop the Logos project I'll be playing around with various examples from Bratko's excellent text on Prolog here.
+
+h2. Running The Examples
+
+Make sure you have Lein or Cake installed. You will need to clone the Logos project and install the Logos project to your local Maven repo. Then clone this repo and proceed as usual.
+
+Copyright (C) 2010 David Nolen
+
+Distributed under the Eclipse Public License, the same as Clojure.

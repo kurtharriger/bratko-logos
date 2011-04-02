@@ -23,6 +23,6 @@
                    (canget-o next out))))
 
 (comment
- (mk/run 1 [q]
+  (mk/run 1 [q]
       (canget-o [:atdoor :onfloor :atwindow :hasnot] q))
  )
